@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+/* font-family: 'EB Garamond', serif; */
+/* font-family: 'Outfit', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(3, 52, 100);
+}
+#header {
+  width: 100%;
+  height: 100%;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
+  min-width: 1450px;
+}
+.icon-text-container {
+  display: inline-block;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+.pages-h2 {
+  vertical-align: middle;
+  color: whitesmoke;
+  font-size: 35px;
+  cursor: default;
+}
+.mainIcon {
+  vertical-align: middle;
+  width: 45px;
+  height: 45px;
+}
+.icons {
+  display: inline-block;
+  margin-right: 35%;
+}
+.facebook,
+.twitter,
+.linkedin {
+  vertical-align: middle;
+  border: 2px solid whitesmoke;
+  border-radius: 2px;
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+  box-shadow: 1px 1px 30px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+.menu {
+  display: inline-block;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+.menu-text {
+  color: whitesmoke;
+  font-size: 17px;
+  margin-right: 50px;
+  border: none;
+  outline: none;
+  transition: 0.1s;
+}
+.menu-text:hover {
+  text-shadow: 1px 1px 50px rgb(243, 208, 8);
+  color: gold;
+  cursor: pointer;
+}
+.order {
+  color: rgb(0, 47, 96);
+  background-color: gold;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+}
+.order:hover {
+  box-shadow: 1px 1px 80px 10px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+
+.welcome-to-pages {
+  font-family: "EB Garamond", serif;
+  display: flex;
+}
+.welcome-text {
+  margin-top: 10%;
+  margin-left: 5%;
+  display: inline-block;
+}
+.horizontal-line {
+  display: flex;
+  align-items: center;
+}
+.horizontal-line-p {
+  border-top: 2px solid gold;
+  width: 50px;
+}
+.p-welcome {
+  margin-left: 13px;
+  font-size: 23px;
+  color: whitesmoke;
+  cursor: default;
+}
+.p-bestWriter {
+  margin-left: 5px;
+  font-size: 100px;
+  color: whitesmoke;
+  cursor: default;
+}
+.lampBook-img {
+  flex: 1;
+  margin: 100px;
+  margin-top: 4%;
+}
+.p-weBelieve {
+  color: whitesmoke;
+  margin: 5px;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+  cursor: default;
+}
+.btn-order {
+  margin-top: 45px;
+  color: rgb(0, 47, 96);
+  background-color: gold;
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-family: "EB Garamond", serif;
+  cursor: pointer;
+}
+.btn-order:hover {
+  box-shadow: 1px 1px 60px 10px rgb(255, 235, 124);
+  transition: 0.5s;
+}
+.read-free {
+  color: whitesmoke;
+  margin: 53px;
+  font-size: 25px;
+  border-bottom: 2px solid whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.read-free:hover {
+  text-shadow: 1px 1px 50px rgb(243, 208, 8);
+  color: gold;
+  border-color: gold;
+}
+/* -------------------------------------- */
+.circle-plr {
+  display: flex;
+}
+.pages-lenght-rating {
+  flex: 1;
+  margin-top: 60px;
+  position: relative;
+  background: 0;
+  cursor: default;
+}
+.plr {
+  vertical-align: middle;
+  background: 0;
+  font-size: 35px;
+  color: whitesmoke;
+}
+.p-plr {
+  margin-top: 8px;
+  background: 0;
+  font-size: 21px;
+  color: whitesmoke;
+  font-family: "Outfit", sans-serif;
+}
+.pages-lenght-rating::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px; /* Размер кружка */
+  height: 15px;
+  background-color: gold; /* Цвет кружка */
+  border-radius: 50%; /* Превратить элемент в круг */
+  margin-right: 5px;
+}
+
+.author {
+  padding: 10px;
+  width: 100%;
+  height: 960px;
+  background-color: whitesmoke;
+}
+
+.author-p {
+  margin: 30px;
+  text-align: center;
+  background: 0;
+  font-family: "EB Garamond", serif;
+  font-size: 40px;
+  color: rgb(3, 52, 100);
+}
+
+.horizontal-line2 {
+  display: flex;
+  margin-left: 730px;
+  border-top: 3px solid rgb(230, 195, 0);
+  width: 75px;
+}
+
+.palm-lamp {
+  display: inline-flex;
+  background: 0;
+  padding: 5px;
+}
+.palmBook-img {
+  background: none;
+  box-shadow: 1px 1px 20px 10px grey;
+  flex: 1;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.lampBook2-img {
+  background: none;
+  box-shadow: 1px 1px 20px 10px grey;
+  flex: 1;
+  margin-top: 80px;
+  margin-left: 500px;
+}
+.prices-div {
+  display: inline-flex;
+  background: none;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.palm-p {
+  flex: 1;
+}
